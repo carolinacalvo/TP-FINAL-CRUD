@@ -28,8 +28,11 @@
                 <p class="lead">Fecha de nacimiento: ${alumnoAVer.fechaNacimiento}.</p>        
                 <p class="lead">Edad: ${alumnoAVer.edad} años.</p>
                 <p class="lead">Mail: ${alumnoAVer.mail}</p>
-                
-                <a class="btn btn-warning" href="${pageContext.request.contextPath}/app">Volver</a>
+                <div class="col">
+                    <a class="btn btn-warning " href="${pageContext.request.contextPath}/app">Volver</a>
+                    <a href="${pageContext.request.contextPath}/app?accion=edit&id=${alumnoAVer.id}" class="btn bg-warning"><i class="bi bi-pencil"></i></a>
+                    <a href="${pageContext.request.contextPath}/app?accion=remove&id=${alumnoAVer.id}" class="btn bg-danger text-light"><i class="bi bi-trash3"></i></a>
+                </div>
             </div>
         </div>
     </section>
