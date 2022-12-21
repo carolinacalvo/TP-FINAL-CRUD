@@ -11,7 +11,7 @@
                 <h1 class="h3">Ver datos</h1>
                 <p class="lead">Estás viendo los datos de ${alumnoAVer.nombreCompleto}.</p>
             </div>
-            <a class="btn btn-warning" href="${pageContext.request.contextPath}/app">Volver</a>
+
         </div>
     </div>
 
@@ -28,6 +28,8 @@
                 <p class="lead">Fecha de nacimiento: ${alumnoAVer.fechaNacimiento}.</p>        
                 <p class="lead">Edad: ${alumnoAVer.edad} años.</p>
                 <p class="lead">Mail: ${alumnoAVer.mail}</p>
+                
+                <a class="btn btn-warning" href="${pageContext.request.contextPath}/app">Volver</a>
             </div>
         </div>
     </section>
