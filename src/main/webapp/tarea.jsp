@@ -29,8 +29,8 @@
                 <h1 class="h3">${alumnoAVer.nombreCompleto}</h1>
                 <p class="lead">Nombre y apellido: ${alumnoAVer.nombreCompleto}.</p>
                 <p class="lead">Fecha de nacimiento: ${alumnoAVer.fechaNacimiento}.</p>        
-                <p class="lead">Edad: ${alumnoAVer.edad}.</p>
-                <p class="lead">Mail: ${alumnoAVer.mail}.</p>
+                <p class="lead">Edad: ${alumnoAVer.edad} años.</p>
+                <p class="lead">Mail: ${alumnoAVer.mail}</p>
             </div>
 
         </div>
