@@ -7,19 +7,16 @@
 <section class="container">
     <div class="row py-3 align-items-center justify-content-center">
         <div class="col-12" >
-            <h1 class="display-1">Ver datos</h1>
-            <p class="lead">
-
-            </p>
+            <div class="row">
+                <h1 class="h3">Ver datos</h1>
+                <p class="lead">Estás viendo los datos de ${alumnoAVer.nombreCompleto}.</p>
+            </div>
             <a class="btn btn-warning" href="${pageContext.request.contextPath}/app">Volver</a>
         </div>
     </div>
 
     <section class="container py-3">
-
-
         <div class="row">
-
             <div class="col-md-5 col-lg-4 col">        
                 <jsp:include page="WEB-INF/pages/alumnos/partes/dataCardAlumno.jsp">
                     <jsp:param name="fotoAlumno" value="${alumnoAVer.foto}" />
@@ -32,11 +29,7 @@
                 <p class="lead">Edad: ${alumnoAVer.edad} años.</p>
                 <p class="lead">Mail: ${alumnoAVer.mail}</p>
             </div>
-
         </div>
-
-
-
     </section>
 
 
