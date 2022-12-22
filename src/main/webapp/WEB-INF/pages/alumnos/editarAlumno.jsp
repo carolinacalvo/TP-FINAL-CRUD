@@ -57,6 +57,7 @@
                 <div class="row justify-content-end mt-2">
                     <div class="col-12">
                         <div class="float-end">
+                            <a href="${pageContext.request.contextPath}/app?accion=view&id=${alumnoAEditar.id}" class="btn btn-secondary">Volver a ${alumnoAEditar.nombreCompleto}</a>
                             <a href="${pageContext.request.contextPath}/app" class="btn btn-secondary">Volver atrás</a>
                             <button type="submit" class="btn btn-warning">Confirmar cambios</button>
                         </div>
