@@ -1,2 +1,2 @@
 # TP-FINAL-CRUD
-Resolución de la tarea: visualización de datos de cada estudiante.
+Trabajo final del curso “Java Fullstack Development” del programa Codo a Codo 4.0. Consigna: desarrollar un CRUD (“create, read, update & delete”).
